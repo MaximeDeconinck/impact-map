@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_850cdfe101a503eea19db2df63f3f1f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_850cdfe101a503eea19db2df63f3f1f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_850cdfe101a503eea19db2df63f3f1f1 = L.map(
+                "map_850cdfe101a503eea19db2df63f3f1f1",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_303b14c9ae51c5fb1c4e79b51209c88f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+            var circle_marker_3898e47527a8710221d299e0e9f163a8 = L.circleMarker(
+                [56.1629, 10.2039],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_ea6ed996fae2274638a9258916b8384c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40adc3af423c86c8a59144eaf7bdedc = $(`<div id="html_b40adc3af423c86c8a59144eaf7bdedc" style="width: 100.0%; height: 100.0%;"><strong>Vestas Wind Systems</strong><br>Fabricant d’éoliennes et solutions de service associées. Conçoit, installe et entretient des parcs éoliens pour accélérer la transition énergétique.</div>`)[0];
+            popup_ea6ed996fae2274638a9258916b8384c.setContent(html_b40adc3af423c86c8a59144eaf7bdedc);
+        
+
+        circle_marker_3898e47527a8710221d299e0e9f163a8.bindPopup(popup_ea6ed996fae2274638a9258916b8384c)
+        ;
+
+        
+    
+    
+            circle_marker_3898e47527a8710221d299e0e9f163a8.bindTooltip(
+                `<div>
+                     Vestas Wind Systems
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_555e05686e5c7a61dda9b2d28355da8e = L.circleMarker(
+                [45.8336, 1.2611],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_df09d42b5e72567c963e6187bfcaab08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_525a53137397e53c94c4ea376e06321c = $(`<div id="html_525a53137397e53c94c4ea376e06321c" style="width: 100.0%; height: 100.0%;"><strong>Legrand</strong><br>Solutions électriques et numériques pour bâtiments résidentiels et tertiaires. Vise l’efficacité énergétique et la sobriété des usages.</div>`)[0];
+            popup_df09d42b5e72567c963e6187bfcaab08.setContent(html_525a53137397e53c94c4ea376e06321c);
+        
+
+        circle_marker_555e05686e5c7a61dda9b2d28355da8e.bindPopup(popup_df09d42b5e72567c963e6187bfcaab08)
+        ;
+
+        
+    
+    
+            circle_marker_555e05686e5c7a61dda9b2d28355da8e.bindTooltip(
+                `<div>
+                     Legrand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a457855bcc10c52c2bb62193b9137240 = L.circleMarker(
+                [40.5372, -3.635],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_4c81d0db1a6e7dd13937952725d2c40f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dd69f7f5268d3c0042a97fd2a6f3201 = $(`<div id="html_2dd69f7f5268d3c0042a97fd2a6f3201" style="width: 100.0%; height: 100.0%;"><strong>Redeia (Red Electrica de España)</strong><br>Gestionnaire du réseau de transport d’électricité espagnol. Développe les interconnexions et l’intégration des renouvelables.</div>`)[0];
+            popup_4c81d0db1a6e7dd13937952725d2c40f.setContent(html_2dd69f7f5268d3c0042a97fd2a6f3201);
+        
+
+        circle_marker_a457855bcc10c52c2bb62193b9137240.bindPopup(popup_4c81d0db1a6e7dd13937952725d2c40f)
+        ;
+
+        
+    
+    
+            circle_marker_a457855bcc10c52c2bb62193b9137240.bindTooltip(
+                `<div>
+                     Redeia (Red Electrica de España)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_164a97cded1dd86660ae92bf04660f10 = L.circleMarker(
+                [33.4272, -111.9396],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_f8a22187d6afeafbd51116885ee51560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_865469b391183aed9e2cf000f05cf4f2 = $(`<div id="html_865469b391183aed9e2cf000f05cf4f2" style="width: 100.0%; height: 100.0%;"><strong>First Solar Inc.</strong><br>Fabricant de panneaux solaires à couche mince. Développe des centrales photovoltaïques à faible empreinte carbone.</div>`)[0];
+            popup_f8a22187d6afeafbd51116885ee51560.setContent(html_865469b391183aed9e2cf000f05cf4f2);
+        
+
+        circle_marker_164a97cded1dd86660ae92bf04660f10.bindPopup(popup_f8a22187d6afeafbd51116885ee51560)
+        ;
+
+        
+    
+    
+            circle_marker_164a97cded1dd86660ae92bf04660f10.bindTooltip(
+                `<div>
+                     First Solar Inc.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_43a1b666d5d599ee048d1e249a8d6cee = L.circleMarker(
+                [48.8769, 2.1814],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_365a766511e46d4a914ee47ac0a95981 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90b838a8681c3ceb62b07bcca45bee5e = $(`<div id="html_90b838a8681c3ceb62b07bcca45bee5e" style="width: 100.0%; height: 100.0%;"><strong>Schneider Electric</strong><br>Spécialiste de la gestion de l’énergie et de l’automatisation. Aide les organisations à décarboner leurs opérations.</div>`)[0];
+            popup_365a766511e46d4a914ee47ac0a95981.setContent(html_90b838a8681c3ceb62b07bcca45bee5e);
+        
+
+        circle_marker_43a1b666d5d599ee048d1e249a8d6cee.bindPopup(popup_365a766511e46d4a914ee47ac0a95981)
+        ;
+
+        
+    
+    
+            circle_marker_43a1b666d5d599ee048d1e249a8d6cee.bindTooltip(
+                `<div>
+                     Schneider Electric
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_deb67d7497e56945a782049e45d0966c = L.circleMarker(
+                [39.944, -75.1196],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_c1ad3ed19975737e1088d5e88130655e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f47e8376068ea0c4f01ee69e908411c = $(`<div id="html_8f47e8376068ea0c4f01ee69e908411c" style="width: 100.0%; height: 100.0%;"><strong>American Water Works</strong><br>Opérateur de services d’eau potable et d’assainissement. Investit dans l’efficacité et la résilience des réseaux.</div>`)[0];
+            popup_c1ad3ed19975737e1088d5e88130655e.setContent(html_8f47e8376068ea0c4f01ee69e908411c);
+        
+
+        circle_marker_deb67d7497e56945a782049e45d0966c.bindPopup(popup_c1ad3ed19975737e1088d5e88130655e)
+        ;
+
+        
+    
+    
+            circle_marker_deb67d7497e56945a782049e45d0966c.bindTooltip(
+                `<div>
+                     American Water Works
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2739a7083d2a004c50be7523d89c07f7 = L.circleMarker(
+                [29.7604, -95.3698],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_f59884fde2609e6217eaa1a5d95a64ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeb298ccd10bd6f0b40ee7f02fbb20eb = $(`<div id="html_aeb298ccd10bd6f0b40ee7f02fbb20eb" style="width: 100.0%; height: 100.0%;"><strong>Waste Management</strong><br>Leader de la gestion et de la valorisation des déchets en Amérique du Nord. Déploie des solutions de recyclage et de captage du biogaz.</div>`)[0];
+            popup_f59884fde2609e6217eaa1a5d95a64ad.setContent(html_aeb298ccd10bd6f0b40ee7f02fbb20eb);
+        
+
+        circle_marker_2739a7083d2a004c50be7523d89c07f7.bindPopup(popup_f59884fde2609e6217eaa1a5d95a64ad)
+        ;
+
+        
+    
+    
+            circle_marker_2739a7083d2a004c50be7523d89c07f7.bindTooltip(
+                `<div>
+                     Waste Management
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c39e54492cb5b32a4e942208a5339aeb = L.circleMarker(
+                [35.683, 139.702],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_06d4f741d74bd17be3b31845c5c4d01e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb978ca9289c36319b3fd977cf5cf0cd = $(`<div id="html_eb978ca9289c36319b3fd977cf5cf0cd" style="width: 100.0%; height: 100.0%;"><strong>East Japan Railway</strong><br>Grand opérateur ferroviaire japonais (JR East). Modernise les réseaux et les gares pour une mobilité bas‑carbone.</div>`)[0];
+            popup_06d4f741d74bd17be3b31845c5c4d01e.setContent(html_eb978ca9289c36319b3fd977cf5cf0cd);
+        
+
+        circle_marker_c39e54492cb5b32a4e942208a5339aeb.bindPopup(popup_06d4f741d74bd17be3b31845c5c4d01e)
+        ;
+
+        
+    
+    
+            circle_marker_c39e54492cb5b32a4e942208a5339aeb.bindTooltip(
+                `<div>
+                     East Japan Railway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7aa6a4e6e26ae658b75eefee523c19a6 = L.circleMarker(
+                [48.9117, 2.3339],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_3c6eb0bf3dab65f90e30b16e0226119d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_294ea02f7d2f1af24b6b1e87441c442c = $(`<div id="html_294ea02f7d2f1af24b6b1e87441c442c" style="width: 100.0%; height: 100.0%;"><strong>Alstom</strong><br>Conçoit trains, tramways et systèmes de signalisation. Contribue à des transports publics propres et performants.</div>`)[0];
+            popup_3c6eb0bf3dab65f90e30b16e0226119d.setContent(html_294ea02f7d2f1af24b6b1e87441c442c);
+        
+
+        circle_marker_7aa6a4e6e26ae658b75eefee523c19a6.bindPopup(popup_3c6eb0bf3dab65f90e30b16e0226119d)
+        ;
+
+        
+    
+    
+            circle_marker_7aa6a4e6e26ae658b75eefee523c19a6.bindTooltip(
+                `<div>
+                     Alstom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_683e96b88c03d343f6bd346ecd2dc40c = L.circleMarker(
+                [55.6153, 12.25],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_d793dc20a0e9f7a9f2d812ba0a2d606c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c49357457842b198449260f27ab6ea2b = $(`<div id="html_c49357457842b198449260f27ab6ea2b" style="width: 100.0%; height: 100.0%;"><strong>Rockwool</strong><br>Produit des isolants en laine de roche. Améliore l’efficacité énergétique des bâtiments et le confort thermique.</div>`)[0];
+            popup_d793dc20a0e9f7a9f2d812ba0a2d606c.setContent(html_c49357457842b198449260f27ab6ea2b);
+        
+
+        circle_marker_683e96b88c03d343f6bd346ecd2dc40c.bindPopup(popup_d793dc20a0e9f7a9f2d812ba0a2d606c)
+        ;
+
+        
+    
+    
+            circle_marker_683e96b88c03d343f6bd346ecd2dc40c.bindTooltip(
+                `<div>
+                     Rockwool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dbd68f22c3a14b387a2f5e5469f2b657 = L.circleMarker(
+                [40.423, -3.713],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_492254a5d8218409880b345987db3bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9960bc076b1c0a969d80d346a60b582b = $(`<div id="html_9960bc076b1c0a969d80d346a60b582b" style="width: 100.0%; height: 100.0%;"><strong>Solaria Energía y Medio Ambiente SA</strong><br>Producteur indépendant d’énergie solaire en Espagne. Développe, finance et exploite des centrales photovoltaïques.</div>`)[0];
+            popup_492254a5d8218409880b345987db3bf5.setContent(html_9960bc076b1c0a969d80d346a60b582b);
+        
+
+        circle_marker_dbd68f22c3a14b387a2f5e5469f2b657.bindPopup(popup_492254a5d8218409880b345987db3bf5)
+        ;
+
+        
+    
+    
+            circle_marker_dbd68f22c3a14b387a2f5e5469f2b657.bindTooltip(
+                `<div>
+                     Solaria Energía y Medio Ambiente SA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c4365de5cff7cb46e0af2b203ee956f8 = L.circleMarker(
+                [45.851, -72.083],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_13ee9f516aab096e0732534c916e45b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcd46cf53a857dd0889288be70379416 = $(`<div id="html_dcd46cf53a857dd0889288be70379416" style="width: 100.0%; height: 100.0%;"><strong>Boralex</strong><br>Producteur d’énergies renouvelables (éolien, solaire, hydro) présent en Europe et Amérique du Nord. Met l’accent sur des projets durables de long terme.</div>`)[0];
+            popup_13ee9f516aab096e0732534c916e45b1.setContent(html_dcd46cf53a857dd0889288be70379416);
+        
+
+        circle_marker_c4365de5cff7cb46e0af2b203ee956f8.bindPopup(popup_13ee9f516aab096e0732534c916e45b1)
+        ;
+
+        
+    
+    
+            circle_marker_c4365de5cff7cb46e0af2b203ee956f8.bindTooltip(
+                `<div>
+                     Boralex
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_61b0c2f9576d3693a58704cea4047181 = L.circleMarker(
+                [48.8708, 2.3095],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_eab215e8b5f926251fc27905af7b3984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13a1929fca03fb3fc28046a7b096f1ee = $(`<div id="html_13a1929fca03fb3fc28046a7b096f1ee" style="width: 100.0%; height: 100.0%;"><strong>Neoen SA</strong><br>Développeur et exploitant d’actifs renouvelables (solaire, éolien, stockage). Pilote de grands projets avec batteries.</div>`)[0];
+            popup_eab215e8b5f926251fc27905af7b3984.setContent(html_13a1929fca03fb3fc28046a7b096f1ee);
+        
+
+        circle_marker_61b0c2f9576d3693a58704cea4047181.bindPopup(popup_eab215e8b5f926251fc27905af7b3984)
+        ;
+
+        
+    
+    
+            circle_marker_61b0c2f9576d3693a58704cea4047181.bindTooltip(
+                `<div>
+                     Neoen SA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8c0e838a53fc1febfd2b71c087b0f679 = L.circleMarker(
+                [48.844, 2.37],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_50fdfd125ef44530ce5617e9cea414d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bb2df170fc336cdee76574139808bdd = $(`<div id="html_0bb2df170fc336cdee76574139808bdd" style="width: 100.0%; height: 100.0%;"><strong>RATP</strong><br>Réseau de transports publics franciliens. Incarne une mobilité du quotidien plus accessible et moins émettrice.</div>`)[0];
+            popup_50fdfd125ef44530ce5617e9cea414d7.setContent(html_0bb2df170fc336cdee76574139808bdd);
+        
+
+        circle_marker_8c0e838a53fc1febfd2b71c087b0f679.bindPopup(popup_50fdfd125ef44530ce5617e9cea414d7)
+        ;
+
+        
+    
+    
+            circle_marker_8c0e838a53fc1febfd2b71c087b0f679.bindTooltip(
+                `<div>
+                     RATP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18ad5bf25a6e54d54a90a44fd5559595 = L.circleMarker(
+                [43.2687, -2.9341],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_5cf37f1471697fc5f57aa7285e16afab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a466070e9a11f536a57986116c05a04 = $(`<div id="html_0a466070e9a11f536a57986116c05a04" style="width: 100.0%; height: 100.0%;"><strong>Iberdrola</strong><br>Groupe énergétique international centré sur les renouvelables et les réseaux. Investit massivement dans l’éolien et l’électrification.</div>`)[0];
+            popup_5cf37f1471697fc5f57aa7285e16afab.setContent(html_0a466070e9a11f536a57986116c05a04);
+        
+
+        circle_marker_18ad5bf25a6e54d54a90a44fd5559595.bindPopup(popup_5cf37f1471697fc5f57aa7285e16afab)
+        ;
+
+        
+    
+    
+            circle_marker_18ad5bf25a6e54d54a90a44fd5559595.bindTooltip(
+                `<div>
+                     Iberdrola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_51739991120eb85f4ac0d501d7a8a4ab = L.circleMarker(
+                [53.9086, -6.8056],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_e633c68e572bce32ea7f89693bfa1465 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cbc84468f86bd1288c0daf30dccad89 = $(`<div id="html_8cbc84468f86bd1288c0daf30dccad89" style="width: 100.0%; height: 100.0%;"><strong>Kingspan Group</strong><br>Solutions d’enveloppe du bâtiment et d’isolation. Réduction des consommations et de l’empreinte carbone des constructions.</div>`)[0];
+            popup_e633c68e572bce32ea7f89693bfa1465.setContent(html_8cbc84468f86bd1288c0daf30dccad89);
+        
+
+        circle_marker_51739991120eb85f4ac0d501d7a8a4ab.bindPopup(popup_e633c68e572bce32ea7f89693bfa1465)
+        ;
+
+        
+    
+    
+            circle_marker_51739991120eb85f4ac0d501d7a8a4ab.bindTooltip(
+                `<div>
+                     Kingspan Group
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_969fe583c972fa490e30f8e2c359fc84 = L.circleMarker(
+                [48.8924, 2.236],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_fb3d1bde7e3b8b8aefcd279dc66b6ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11c34cc57eb9fb207e384e7eb34e7c32 = $(`<div id="html_11c34cc57eb9fb207e384e7eb34e7c32" style="width: 100.0%; height: 100.0%;"><strong>Verallia</strong><br>Producteur d’emballages en verre. Accélère le recyclage du calcin et l’allègement des bouteilles.</div>`)[0];
+            popup_fb3d1bde7e3b8b8aefcd279dc66b6ec4.setContent(html_11c34cc57eb9fb207e384e7eb34e7c32);
+        
+
+        circle_marker_969fe583c972fa490e30f8e2c359fc84.bindPopup(popup_fb3d1bde7e3b8b8aefcd279dc66b6ec4)
+        ;
+
+        
+    
+    
+            circle_marker_969fe583c972fa490e30f8e2c359fc84.bindTooltip(
+                `<div>
+                     Verallia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a920ab68feda059844a24277ff9a0aaf = L.circleMarker(
+                [59.3326, 18.0649],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_a9995c0773f8ddfc2af85c37cda64d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_247388c7201796271bb3a9bda618a17a = $(`<div id="html_247388c7201796271bb3a9bda618a17a" style="width: 100.0%; height: 100.0%;"><strong>Holmen AB</strong><br>Groupe forestier et papetier suédois. Valorise une ressource gérée durablement en matériaux bas‑carbone.</div>`)[0];
+            popup_a9995c0773f8ddfc2af85c37cda64d22.setContent(html_247388c7201796271bb3a9bda618a17a);
+        
+
+        circle_marker_a920ab68feda059844a24277ff9a0aaf.bindPopup(popup_a9995c0773f8ddfc2af85c37cda64d22)
+        ;
+
+        
+    
+    
+            circle_marker_a920ab68feda059844a24277ff9a0aaf.bindTooltip(
+                `<div>
+                     Holmen AB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c01d1521adf6862c8cf5fe5e00966e0 = L.circleMarker(
+                [48.823, 2.273],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_540f0168f21ce9bf4ff83dccf2053fda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab657839671e3d61e48af3ed855f23bf = $(`<div id="html_ab657839671e3d61e48af3ed855f23bf" style="width: 100.0%; height: 100.0%;"><strong>Orange</strong><br>Opérateur de télécommunications. Travaille à des réseaux sobres en énergie et à l’économie circulaire des équipements.</div>`)[0];
+            popup_540f0168f21ce9bf4ff83dccf2053fda.setContent(html_ab657839671e3d61e48af3ed855f23bf);
+        
+
+        circle_marker_7c01d1521adf6862c8cf5fe5e00966e0.bindPopup(popup_540f0168f21ce9bf4ff83dccf2053fda)
+        ;
+
+        
+    
+    
+            circle_marker_7c01d1521adf6862c8cf5fe5e00966e0.bindTooltip(
+                `<div>
+                     Orange
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a54b729caee3c058299de686bdbe4421 = L.circleMarker(
+                [41.9028, 12.4964],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_03f186796b12e5ded42b8872eec18fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab91e94e3a2707b762cce5ec700378dd = $(`<div id="html_ab91e94e3a2707b762cce5ec700378dd" style="width: 100.0%; height: 100.0%;"><strong>WeBuild</strong><br>Groupe italien de génie civil et d’infrastructures. Intègre des critères environnementaux sur les chantiers majeurs.</div>`)[0];
+            popup_03f186796b12e5ded42b8872eec18fca.setContent(html_ab91e94e3a2707b762cce5ec700378dd);
+        
+
+        circle_marker_a54b729caee3c058299de686bdbe4421.bindPopup(popup_03f186796b12e5ded42b8872eec18fca)
+        ;
+
+        
+    
+    
+            circle_marker_a54b729caee3c058299de686bdbe4421.bindTooltip(
+                `<div>
+                     WeBuild
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7dd0ccc48f6a9f86c186ab88879d3a4a = L.circleMarker(
+                [48.872, 2.309],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_8677fb6a03af7464ecfb2cc357263839 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d386bff37c4f26f159cc6a50d555ad = $(`<div id="html_c4d386bff37c4f26f159cc6a50d555ad" style="width: 100.0%; height: 100.0%;"><strong>Veolia</strong><br>Acteur mondial de l’eau, des déchets et de l’énergie. Déploie des solutions d’économie circulaire pour villes et industries.</div>`)[0];
+            popup_8677fb6a03af7464ecfb2cc357263839.setContent(html_c4d386bff37c4f26f159cc6a50d555ad);
+        
+
+        circle_marker_7dd0ccc48f6a9f86c186ab88879d3a4a.bindPopup(popup_8677fb6a03af7464ecfb2cc357263839)
+        ;
+
+        
+    
+    
+            circle_marker_7dd0ccc48f6a9f86c186ab88879d3a4a.bindTooltip(
+                `<div>
+                     Veolia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1221dd99f58d6acb5804d1f56fb742d9 = L.circleMarker(
+                [60.1686, 24.9522],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_c5a49290d021b14f7bc08cfc5b5fd7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe30d1df209a4c5754861c7a822f775e = $(`<div id="html_fe30d1df209a4c5754861c7a822f775e" style="width: 100.0%; height: 100.0%;"><strong>Stora Enso</strong><br>Entreprise de matériaux biosourcés, papier et bois. Substitue des alternatives au plastique et stocke du carbone dans le bois.</div>`)[0];
+            popup_c5a49290d021b14f7bc08cfc5b5fd7d8.setContent(html_fe30d1df209a4c5754861c7a822f775e);
+        
+
+        circle_marker_1221dd99f58d6acb5804d1f56fb742d9.bindPopup(popup_c5a49290d021b14f7bc08cfc5b5fd7d8)
+        ;
+
+        
+    
+    
+            circle_marker_1221dd99f58d6acb5804d1f56fb742d9.bindTooltip(
+                `<div>
+                     Stora Enso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f07b6854a37f9d66bfc4daffbab5fbb = L.circleMarker(
+                [38.7071, -9.1355],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_de0fca029238410b7d4c46f667eb1b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c46a2059cd507b69a3e0221adbc62b32 = $(`<div id="html_c46a2059cd507b69a3e0221adbc62b32" style="width: 100.0%; height: 100.0%;"><strong>EDP Renewables</strong><br>Filiale renouvelable du groupe EDP. Développe des parcs éoliens et solaires dans le monde.</div>`)[0];
+            popup_de0fca029238410b7d4c46f667eb1b35.setContent(html_c46a2059cd507b69a3e0221adbc62b32);
+        
+
+        circle_marker_5f07b6854a37f9d66bfc4daffbab5fbb.bindPopup(popup_de0fca029238410b7d4c46f667eb1b35)
+        ;
+
+        
+    
+    
+            circle_marker_5f07b6854a37f9d66bfc4daffbab5fbb.bindTooltip(
+                `<div>
+                     EDP Renewables
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f798c9cb06945eb77bc0fdac93acf662 = L.circleMarker(
+                [51.4486, 5.45],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_d60f8f551385a8bb27657facfd349698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0cb8353697ca6bc48b2cb62d157a2f7 = $(`<div id="html_c0cb8353697ca6bc48b2cb62d157a2f7" style="width: 100.0%; height: 100.0%;"><strong>Signify</strong><br>Spécialiste de l’éclairage (LED, connecté). Réduit la consommation via l’efficacité et les systèmes intelligents.</div>`)[0];
+            popup_d60f8f551385a8bb27657facfd349698.setContent(html_c0cb8353697ca6bc48b2cb62d157a2f7);
+        
+
+        circle_marker_f798c9cb06945eb77bc0fdac93acf662.bindPopup(popup_d60f8f551385a8bb27657facfd349698)
+        ;
+
+        
+    
+    
+            circle_marker_f798c9cb06945eb77bc0fdac93acf662.bindTooltip(
+                `<div>
+                     Signify
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d459d26461d00c7d8dd5417826e918c = L.circleMarker(
+                [37.5483, -121.9886],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_9a530a5f06462e19fb7a2ab608c66a83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a86b3a8fde2660d9a913049c28187aa = $(`<div id="html_3a86b3a8fde2660d9a913049c28187aa" style="width: 100.0%; height: 100.0%;"><strong>Enphase Energy</strong><br>Fournit micro‑onduleurs et solutions de gestion de l’énergie solaire résidentielle. Facilite l’autoconsommation.</div>`)[0];
+            popup_9a530a5f06462e19fb7a2ab608c66a83.setContent(html_3a86b3a8fde2660d9a913049c28187aa);
+        
+
+        circle_marker_0d459d26461d00c7d8dd5417826e918c.bindPopup(popup_9a530a5f06462e19fb7a2ab608c66a83)
+        ;
+
+        
+    
+    
+            circle_marker_0d459d26461d00c7d8dd5417826e918c.bindTooltip(
+                `<div>
+                     Enphase Energy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ec0dfde7bf10ac15a087e82f93a23b32 = L.circleMarker(
+                [48.8761, 2.295],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_b84226e94666cd17148cf5161bbc026b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6c60d31ca06f16fd8f67c399a8bba39 = $(`<div id="html_a6c60d31ca06f16fd8f67c399a8bba39" style="width: 100.0%; height: 100.0%;"><strong>EDF</strong><br>Producteur et fournisseur d’électricité. Accélère la décarbonation via un mix bas‑carbone et les renouvelables.</div>`)[0];
+            popup_b84226e94666cd17148cf5161bbc026b.setContent(html_a6c60d31ca06f16fd8f67c399a8bba39);
+        
+
+        circle_marker_ec0dfde7bf10ac15a087e82f93a23b32.bindPopup(popup_b84226e94666cd17148cf5161bbc026b)
+        ;
+
+        
+    
+    
+            circle_marker_ec0dfde7bf10ac15a087e82f93a23b32.bindTooltip(
+                `<div>
+                     EDF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_532d4afe1a33ae327cfce373e6ec39c3 = L.circleMarker(
+                [40.5393, -3.6357],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_5fc1b6258a7881923015dc93f4712952 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98bfb034d50b31bf4c89a3647e56e67a = $(`<div id="html_98bfb034d50b31bf4c89a3647e56e67a" style="width: 100.0%; height: 100.0%;"><strong>Acciona Energía</strong><br>Producteur d’énergies 100% renouvelables (éolien, solaire, biomasse). Développe des projets à impact positif.</div>`)[0];
+            popup_5fc1b6258a7881923015dc93f4712952.setContent(html_98bfb034d50b31bf4c89a3647e56e67a);
+        
+
+        circle_marker_532d4afe1a33ae327cfce373e6ec39c3.bindPopup(popup_5fc1b6258a7881923015dc93f4712952)
+        ;
+
+        
+    
+    
+            circle_marker_532d4afe1a33ae327cfce373e6ec39c3.bindTooltip(
+                `<div>
+                     Acciona Energía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_803daac5c27a7084f265175365f4dc93 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_145190f7e1c5c690b2026214e24c118c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72e392004fbbbc3a9e0db932e99f9e19 = $(`<div id="html_72e392004fbbbc3a9e0db932e99f9e19" style="width: 100.0%; height: 100.0%;"><strong>Société des Grands Projets</strong><br>Maîtrise d’ouvrage d’infrastructures publiques et de mobilité. Porte des opérations de grande ampleur avec objectifs de durabilité.</div>`)[0];
+            popup_145190f7e1c5c690b2026214e24c118c.setContent(html_72e392004fbbbc3a9e0db932e99f9e19);
+        
+
+        circle_marker_803daac5c27a7084f265175365f4dc93.bindPopup(popup_145190f7e1c5c690b2026214e24c118c)
+        ;
+
+        
+    
+    
+            circle_marker_803daac5c27a7084f265175365f4dc93.bindTooltip(
+                `<div>
+                     Société des Grands Projets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_350a7ca973ca632e75289a04c9e99557 = L.circleMarker(
+                [62.3908, 17.3069],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_a4d14f314c9ff34f950a0acf6f6c90cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d118f40659761d715994c6655ff3bd6c = $(`<div id="html_d118f40659761d715994c6655ff3bd6c" style="width: 100.0%; height: 100.0%;"><strong>Svenska Cellulosa (SCA)</strong><br>Groupe forestier suédois. Gère des forêts certifiées et produit des matériaux à base de fibre.</div>`)[0];
+            popup_a4d14f314c9ff34f950a0acf6f6c90cf.setContent(html_d118f40659761d715994c6655ff3bd6c);
+        
+
+        circle_marker_350a7ca973ca632e75289a04c9e99557.bindPopup(popup_a4d14f314c9ff34f950a0acf6f6c90cf)
+        ;
+
+        
+    
+    
+            circle_marker_350a7ca973ca632e75289a04c9e99557.bindTooltip(
+                `<div>
+                     Svenska Cellulosa (SCA)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a7214e4b475d2d5dbb7cad42488204ce = L.circleMarker(
+                [55.565, 9.7526],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_b15890f695f778688b58aa2cd49efd5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea9143efb067a2171f48bc12530a2c74 = $(`<div id="html_ea9143efb067a2171f48bc12530a2c74" style="width: 100.0%; height: 100.0%;"><strong>Ørsted</strong><br>Pionnier de l’éolien en mer et des renouvelables. Transforme d’anciennes activités fossiles vers le vert.</div>`)[0];
+            popup_b15890f695f778688b58aa2cd49efd5b.setContent(html_ea9143efb067a2171f48bc12530a2c74);
+        
+
+        circle_marker_a7214e4b475d2d5dbb7cad42488204ce.bindPopup(popup_b15890f695f778688b58aa2cd49efd5b)
+        ;
+
+        
+    
+    
+            circle_marker_a7214e4b475d2d5dbb7cad42488204ce.bindTooltip(
+                `<div>
+                     Ørsted
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f9ce2f7ca91933c1aeabf2d847691b9 = L.circleMarker(
+                [43.5456, 1.4979],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_ed5cf1120983bb0f4122782982d04f2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e606d046921bf360611476f04d78efb0 = $(`<div id="html_e606d046921bf360611476f04d78efb0" style="width: 100.0%; height: 100.0%;"><strong>Naïo Technologies</strong><br>Conçoit des robots agricoles électriques. Réduit l’usage d’intrants et la pénibilité au champ.</div>`)[0];
+            popup_ed5cf1120983bb0f4122782982d04f2d.setContent(html_e606d046921bf360611476f04d78efb0);
+        
+
+        circle_marker_2f9ce2f7ca91933c1aeabf2d847691b9.bindPopup(popup_ed5cf1120983bb0f4122782982d04f2d)
+        ;
+
+        
+    
+    
+            circle_marker_2f9ce2f7ca91933c1aeabf2d847691b9.bindTooltip(
+                `<div>
+                     Naïo Technologies
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3926ab7faba5d249927e4196158212c1 = L.circleMarker(
+                [48.872, 2.314],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_14a58d259c901b4191dfa8c9e80f0c64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12a903ac15a1540c65ada252a9e49782 = $(`<div id="html_12a903ac15a1540c65ada252a9e49782" style="width: 100.0%; height: 100.0%;"><strong>Vestack</strong><br>Construction modulaire bas‑carbone en bois. Réduit l’empreinte des chantiers et les délais de livraison.</div>`)[0];
+            popup_14a58d259c901b4191dfa8c9e80f0c64.setContent(html_12a903ac15a1540c65ada252a9e49782);
+        
+
+        circle_marker_3926ab7faba5d249927e4196158212c1.bindPopup(popup_14a58d259c901b4191dfa8c9e80f0c64)
+        ;
+
+        
+    
+    
+            circle_marker_3926ab7faba5d249927e4196158212c1.bindTooltip(
+                `<div>
+                     Vestack
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_70795a41be8d6521048743417b0c42bb = L.circleMarker(
+                [43.6047, 1.4442],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_fd576094999fed79e93217bdcd8e8f5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6582a8a3ce758ec8c34d8b7989661f2 = $(`<div id="html_d6582a8a3ce758ec8c34d8b7989661f2" style="width: 100.0%; height: 100.0%;"><strong>Agronutris</strong><br>Produit des protéines d’insectes pour l’alimentation animale. Contribue à une filière plus circulaire.</div>`)[0];
+            popup_fd576094999fed79e93217bdcd8e8f5d.setContent(html_d6582a8a3ce758ec8c34d8b7989661f2);
+        
+
+        circle_marker_70795a41be8d6521048743417b0c42bb.bindPopup(popup_fd576094999fed79e93217bdcd8e8f5d)
+        ;
+
+        
+    
+    
+            circle_marker_70795a41be8d6521048743417b0c42bb.bindTooltip(
+                `<div>
+                     Agronutris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bafed45d66b1335e9fc0675c2ceb9539 = L.circleMarker(
+                [48.879, 2.309],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_bb591ae0470f12a09c102164bf7f8cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7612edd3400af6ef4e45c4459d1be85 = $(`<div id="html_f7612edd3400af6ef4e45c4459d1be85" style="width: 100.0%; height: 100.0%;"><strong>Tallano Technologies</strong><br>Développe des systèmes de captation des particules de frein. Vise une mobilité urbaine plus saine.</div>`)[0];
+            popup_bb591ae0470f12a09c102164bf7f8cb1.setContent(html_f7612edd3400af6ef4e45c4459d1be85);
+        
+
+        circle_marker_bafed45d66b1335e9fc0675c2ceb9539.bindPopup(popup_bb591ae0470f12a09c102164bf7f8cb1)
+        ;
+
+        
+    
+    
+            circle_marker_bafed45d66b1335e9fc0675c2ceb9539.bindTooltip(
+                `<div>
+                     Tallano Technologies
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f20cc23ff2d9e20ec4d081e645da7e26 = L.circleMarker(
+                [48.882, 2.305],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_e639c97fe0e7ecc2137d7bfbe79b51af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e196020265110d353fac30fa41a1b05 = $(`<div id="html_1e196020265110d353fac30fa41a1b05" style="width: 100.0%; height: 100.0%;"><strong>Perial Euro Carbone</strong><br>Initiative d’investissement orientée transition bas‑carbone dans l’immobilier. Vise la réduction des émissions et l’adaptation.</div>`)[0];
+            popup_e639c97fe0e7ecc2137d7bfbe79b51af.setContent(html_1e196020265110d353fac30fa41a1b05);
+        
+
+        circle_marker_f20cc23ff2d9e20ec4d081e645da7e26.bindPopup(popup_e639c97fe0e7ecc2137d7bfbe79b51af)
+        ;
+
+        
+    
+    
+            circle_marker_f20cc23ff2d9e20ec4d081e645da7e26.bindTooltip(
+                `<div>
+                     Perial Euro Carbone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b5db460869641ae27da41d80c59ba8a4 = L.circleMarker(
+                [48.876, 2.332],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_5a380452a75c10fecf3d98eb8405e0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e571390e48625603c4a4f5d2ed27bf1 = $(`<div id="html_5e571390e48625603c4a4f5d2ed27bf1" style="width: 100.0%; height: 100.0%;"><strong>Novaxia</strong><br>Société d’investissement et de développement immobilier. Spécialisée dans le recyclage urbain et la transformation de bâtiments.</div>`)[0];
+            popup_5a380452a75c10fecf3d98eb8405e0dd.setContent(html_5e571390e48625603c4a4f5d2ed27bf1);
+        
+
+        circle_marker_b5db460869641ae27da41d80c59ba8a4.bindPopup(popup_5a380452a75c10fecf3d98eb8405e0dd)
+        ;
+
+        
+    
+    
+            circle_marker_b5db460869641ae27da41d80c59ba8a4.bindTooltip(
+                `<div>
+                     Novaxia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5da8cdf742463d1c73259213ab0c0aa1 = L.circleMarker(
+                [48.9362, 2.3574],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_9f3500ab6134e15017690e6ea9358b67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f3033e7b2d30a614cd1bb65592a62e = $(`<div id="html_18f3033e7b2d30a614cd1bb65592a62e" style="width: 100.0%; height: 100.0%;"><strong>SNCF</strong><br>Opérateur ferroviaire national en France. Favorise une mobilité massifiée et décarbonée.</div>`)[0];
+            popup_9f3500ab6134e15017690e6ea9358b67.setContent(html_18f3033e7b2d30a614cd1bb65592a62e);
+        
+
+        circle_marker_5da8cdf742463d1c73259213ab0c0aa1.bindPopup(popup_9f3500ab6134e15017690e6ea9358b67)
+        ;
+
+        
+    
+    
+            circle_marker_5da8cdf742463d1c73259213ab0c0aa1.bindTooltip(
+                `<div>
+                     SNCF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dfea4e72fc97a22c0d064f6187588a2b = L.circleMarker(
+                [48.0061, 0.1996],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_3717108c3fab6585ff1781d28f07c5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40288308d99031dd532b73cee0365202 = $(`<div id="html_40288308d99031dd532b73cee0365202" style="width: 100.0%; height: 100.0%;"><strong>Refuge Groin Groin</strong><br>Association de protection animale qui accueille des animaux d’élevage. Sensibilise au bien‑être animal.</div>`)[0];
+            popup_3717108c3fab6585ff1781d28f07c5c4.setContent(html_40288308d99031dd532b73cee0365202);
+        
+
+        circle_marker_dfea4e72fc97a22c0d064f6187588a2b.bindPopup(popup_3717108c3fab6585ff1781d28f07c5c4)
+        ;
+
+        
+    
+    
+            circle_marker_dfea4e72fc97a22c0d064f6187588a2b.bindTooltip(
+                `<div>
+                     Refuge Groin Groin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad5bf84c98b096c29732793cda3f382d = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_d2dc9cd0a65fd10adb7edc578722f7a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b4472d08e9dce96b9c4a0a9116f4df1 = $(`<div id="html_9b4472d08e9dce96b9c4a0a9116f4df1" style="width: 100.0%; height: 100.0%;"><strong>Mollow</strong><br>Entreprise engagée pour des usages plus responsables. Développe des solutions ayant un impact environnemental positif.</div>`)[0];
+            popup_d2dc9cd0a65fd10adb7edc578722f7a8.setContent(html_9b4472d08e9dce96b9c4a0a9116f4df1);
+        
+
+        circle_marker_ad5bf84c98b096c29732793cda3f382d.bindPopup(popup_d2dc9cd0a65fd10adb7edc578722f7a8)
+        ;
+
+        
+    
+    
+            circle_marker_ad5bf84c98b096c29732793cda3f382d.bindTooltip(
+                `<div>
+                     Mollow
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_99384e58450ab0eb4502813017f4ded3 = L.circleMarker(
+                [46.1603, -1.1511],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_0fba48d3b510b761206ec2b80b6c76dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f87f7dd83d87a3ca7e28cd73fc6c92ef = $(`<div id="html_f87f7dd83d87a3ca7e28cd73fc6c92ef" style="width: 100.0%; height: 100.0%;"><strong>Surfrider</strong><br>ONG de protection de l’océan et du littoral. Mobilise citoyens et programmes scientifiques pour réduire la pollution.</div>`)[0];
+            popup_0fba48d3b510b761206ec2b80b6c76dc.setContent(html_f87f7dd83d87a3ca7e28cd73fc6c92ef);
+        
+
+        circle_marker_99384e58450ab0eb4502813017f4ded3.bindPopup(popup_0fba48d3b510b761206ec2b80b6c76dc)
+        ;
+
+        
+    
+    
+            circle_marker_99384e58450ab0eb4502813017f4ded3.bindTooltip(
+                `<div>
+                     Surfrider
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d780502f19bce1c86e67b6fa5e0dbf7a = L.circleMarker(
+                [1.3733, 32.2903],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_07283fdd7ad48b2ac8bbece586be89d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee45910413c91838fdc4578fe136ba08 = $(`<div id="html_ee45910413c91838fdc4578fe136ba08" style="width: 100.0%; height: 100.0%;"><strong>Stop EACOP</strong><br>Collectif militant opposé au projet d’oléoduc EACOP. Plaide pour la protection du climat et des communautés locales.</div>`)[0];
+            popup_07283fdd7ad48b2ac8bbece586be89d1.setContent(html_ee45910413c91838fdc4578fe136ba08);
+        
+
+        circle_marker_d780502f19bce1c86e67b6fa5e0dbf7a.bindPopup(popup_07283fdd7ad48b2ac8bbece586be89d1)
+        ;
+
+        
+    
+    
+            circle_marker_d780502f19bce1c86e67b6fa5e0dbf7a.bindTooltip(
+                `<div>
+                     Stop EACOP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fde0ecbd60902a11c66f1dfb46aa2773 = L.circleMarker(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_00281242de4803c01c93e032e8a4d582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20a0fcb97940add123b88c7fa252aaa9 = $(`<div id="html_20a0fcb97940add123b88c7fa252aaa9" style="width: 100.0%; height: 100.0%;"><strong>Quota Climat</strong><br>Collectif citoyen qui promeut des politiques de sobriété et de justice climatique. Sensibilise aux budgets carbone.</div>`)[0];
+            popup_00281242de4803c01c93e032e8a4d582.setContent(html_20a0fcb97940add123b88c7fa252aaa9);
+        
+
+        circle_marker_fde0ecbd60902a11c66f1dfb46aa2773.bindPopup(popup_00281242de4803c01c93e032e8a4d582)
+        ;
+
+        
+    
+    
+            circle_marker_fde0ecbd60902a11c66f1dfb46aa2773.bindTooltip(
+                `<div>
+                     Quota Climat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e90f79668478327281d833ea38336cb = L.circleMarker(
+                [49.1829, 0.3718],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_42690f0bf39d30b8a5b15b95515b679e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad7b00a77def20b1628969699517f6cb = $(`<div id="html_ad7b00a77def20b1628969699517f6cb" style="width: 100.0%; height: 100.0%;"><strong>FEVE</strong><br>Fédération européenne du verre d’emballage. Défend le recyclage et l’économie circulaire du verre.</div>`)[0];
+            popup_42690f0bf39d30b8a5b15b95515b679e.setContent(html_ad7b00a77def20b1628969699517f6cb);
+        
+
+        circle_marker_4e90f79668478327281d833ea38336cb.bindPopup(popup_42690f0bf39d30b8a5b15b95515b679e)
+        ;
+
+        
+    
+    
+            circle_marker_4e90f79668478327281d833ea38336cb.bindTooltip(
+                `<div>
+                     FEVE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cd11837ee8af6a9067c874b8980d52fe = L.circleMarker(
+                [47.2184, -1.5536],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_01ea6ade48b218ae7bc87da60a0f5446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cafe7a14d58efc41de87cdc03ff9153b = $(`<div id="html_cafe7a14d58efc41de87cdc03ff9153b" style="width: 100.0%; height: 100.0%;"><strong>Lazare</strong><br>Association de colocations solidaires entre personnes anciennement à la rue et bénévoles. Favorise l’inclusion durable.</div>`)[0];
+            popup_01ea6ade48b218ae7bc87da60a0f5446.setContent(html_cafe7a14d58efc41de87cdc03ff9153b);
+        
+
+        circle_marker_cd11837ee8af6a9067c874b8980d52fe.bindPopup(popup_01ea6ade48b218ae7bc87da60a0f5446)
+        ;
+
+        
+    
+    
+            circle_marker_cd11837ee8af6a9067c874b8980d52fe.bindTooltip(
+                `<div>
+                     Lazare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e0b987565a5b8e8315183567ab3c0027 = L.circleMarker(
+                [43.2965, 5.3698],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_e643d7d6a386374abfba33657a4c5405 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e941c56230b5d2ede63219ca5026c3e = $(`<div id="html_2e941c56230b5d2ede63219ca5026c3e" style="width: 100.0%; height: 100.0%;"><strong>Wings of the Ocean</strong><br>Association qui dépollue les littoraux et sensibilise à la protection marine. Organise des missions de terrain.</div>`)[0];
+            popup_e643d7d6a386374abfba33657a4c5405.setContent(html_2e941c56230b5d2ede63219ca5026c3e);
+        
+
+        circle_marker_e0b987565a5b8e8315183567ab3c0027.bindPopup(popup_e643d7d6a386374abfba33657a4c5405)
+        ;
+
+        
+    
+    
+            circle_marker_e0b987565a5b8e8315183567ab3c0027.bindTooltip(
+                `<div>
+                     Wings of the Ocean
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a0ea116f469dda62c089bdd2eb9df514 = L.circleMarker(
+                [-16.2902, -63.5887],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_6aec97da5680621291bd464eb4da7cd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe5cb96e6b0921afc3a81969668dd126 = $(`<div id="html_fe5cb96e6b0921afc3a81969668dd126" style="width: 100.0%; height: 100.0%;"><strong>Coeur de Forêt</strong><br>ONG qui restaure les forêts et soutient les filières locales. Allie reboisement et commerce équitable.</div>`)[0];
+            popup_6aec97da5680621291bd464eb4da7cd0.setContent(html_fe5cb96e6b0921afc3a81969668dd126);
+        
+
+        circle_marker_a0ea116f469dda62c089bdd2eb9df514.bindPopup(popup_6aec97da5680621291bd464eb4da7cd0)
+        ;
+
+        
+    
+    
+            circle_marker_a0ea116f469dda62c089bdd2eb9df514.bindTooltip(
+                `<div>
+                     Coeur de Forêt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab859e91c1a322a06513d03cfa491613 = L.circleMarker(
+                [-1.2921, 36.8219],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_d730d8c6c3dcfab1dc6656efa4ac1bdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ea5fc96a230c768c284c6ad7d81fde0 = $(`<div id="html_6ea5fc96a230c768c284c6ad7d81fde0" style="width: 100.0%; height: 100.0%;"><strong>Just Diggit</strong><br>Organisation qui régénère les terres dégradées en Afrique. Utilise des techniques naturelles pour reverdir les paysages.</div>`)[0];
+            popup_d730d8c6c3dcfab1dc6656efa4ac1bdd.setContent(html_6ea5fc96a230c768c284c6ad7d81fde0);
+        
+
+        circle_marker_ab859e91c1a322a06513d03cfa491613.bindPopup(popup_d730d8c6c3dcfab1dc6656efa4ac1bdd)
+        ;
+
+        
+    
+    
+            circle_marker_ab859e91c1a322a06513d03cfa491613.bindTooltip(
+                `<div>
+                     Just Diggit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_44bd07582bbda1d0bf41cea27b18e700 = L.circleMarker(
+                [-3.4653, -62.2159],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_b06b3148345684faf56b9a465f0215a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7703b7708b60402e71078d459f72f3 = $(`<div id="html_ef7703b7708b60402e71078d459f72f3" style="width: 100.0%; height: 100.0%;"><strong>Climate Partner (Amazonie)</strong><br>Programme de projets climatiques en Amazonie. Vise la protection des forêts et le développement local.</div>`)[0];
+            popup_b06b3148345684faf56b9a465f0215a6.setContent(html_ef7703b7708b60402e71078d459f72f3);
+        
+
+        circle_marker_44bd07582bbda1d0bf41cea27b18e700.bindPopup(popup_b06b3148345684faf56b9a465f0215a6)
+        ;
+
+        
+    
+    
+            circle_marker_44bd07582bbda1d0bf41cea27b18e700.bindTooltip(
+                `<div>
+                     Climate Partner (Amazonie)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8d67fee40d5eca0b98ec7fd0309ccf78 = L.circleMarker(
+                [42.3, 3.3],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_dc4972f35e15fc23ca4519982ec0c0b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e24f6d4a0929c1d359ec7c83149a34f = $(`<div id="html_9e24f6d4a0929c1d359ec7c83149a34f" style="width: 100.0%; height: 100.0%;"><strong>Coral Guardian (Espagne)</strong><br>Association qui restaure les récifs coralliens avec les communautés locales. Mène des actions de sensibilisation.</div>`)[0];
+            popup_dc4972f35e15fc23ca4519982ec0c0b2.setContent(html_9e24f6d4a0929c1d359ec7c83149a34f);
+        
+
+        circle_marker_8d67fee40d5eca0b98ec7fd0309ccf78.bindPopup(popup_dc4972f35e15fc23ca4519982ec0c0b2)
+        ;
+
+        
+    
+    
+            circle_marker_8d67fee40d5eca0b98ec7fd0309ccf78.bindTooltip(
+                `<div>
+                     Coral Guardian (Espagne)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_edb84c97693a04992a98380a5e0a209d = L.circleMarker(
+                [-8.55, 119.7],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_20e4c280f8aa477938d8cdd9d7bcc093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e85789f5a2ea6725f4b17a7bfb188e94 = $(`<div id="html_e85789f5a2ea6725f4b17a7bfb188e94" style="width: 100.0%; height: 100.0%;"><strong>Coral Guardian (Indonésie Hatamin)</strong><br>Projet de restauration corallienne participative en Indonésie. Renforce la biodiversité marine et les moyens de subsistance.</div>`)[0];
+            popup_20e4c280f8aa477938d8cdd9d7bcc093.setContent(html_e85789f5a2ea6725f4b17a7bfb188e94);
+        
+
+        circle_marker_edb84c97693a04992a98380a5e0a209d.bindPopup(popup_20e4c280f8aa477938d8cdd9d7bcc093)
+        ;
+
+        
+    
+    
+            circle_marker_edb84c97693a04992a98380a5e0a209d.bindTooltip(
+                `<div>
+                     Coral Guardian (Indonésie Hatamin)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ecb75d7d8ea0fadde1856562ca944e0 = L.circleMarker(
+                [48.202, -2.9326],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_baaaab935d76c65608313f037263be36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71977678b75ee8397456a398bd91db8c = $(`<div id="html_71977678b75ee8397456a398bd91db8c" style="width: 100.0%; height: 100.0%;"><strong>EcoTree</strong><br>Entreprise de gestion forestière durable ouverte au grand public. Permet d’investir dans des arbres et la biodiversité.</div>`)[0];
+            popup_baaaab935d76c65608313f037263be36.setContent(html_71977678b75ee8397456a398bd91db8c);
+        
+
+        circle_marker_1ecb75d7d8ea0fadde1856562ca944e0.bindPopup(popup_baaaab935d76c65608313f037263be36)
+        ;
+
+        
+    
+    
+            circle_marker_1ecb75d7d8ea0fadde1856562ca944e0.bindTooltip(
+                `<div>
+                     EcoTree
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98071d33457466277934f8c505814b7d = L.circleMarker(
+                [-0.5, 117.5],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_f0cf276aeb1aa7b8c014bd4a04c80c94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb8556ca362653bebb8a10fbc2f7b0a6 = $(`<div id="html_fb8556ca362653bebb8a10fbc2f7b0a6" style="width: 100.0%; height: 100.0%;"><strong>Planète Urgence</strong><br>ONG de solidarité et d’environnement. Porte des programmes de reforestation et d’appui aux communautés.</div>`)[0];
+            popup_f0cf276aeb1aa7b8c014bd4a04c80c94.setContent(html_fb8556ca362653bebb8a10fbc2f7b0a6);
+        
+
+        circle_marker_98071d33457466277934f8c505814b7d.bindPopup(popup_f0cf276aeb1aa7b8c014bd4a04c80c94)
+        ;
+
+        
+    
+    
+            circle_marker_98071d33457466277934f8c505814b7d.bindTooltip(
+                `<div>
+                     Planète Urgence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3eb45d17a0648a6852bda96b8608975 = L.circleMarker(
+                [-8.2196, 114.3696],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_ba7e7491be3800e249eedb2990713e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ece3d68c18e8f1419fc5d31ad1e7ec85 = $(`<div id="html_ece3d68c18e8f1419fc5d31ad1e7ec85" style="width: 100.0%; height: 100.0%;"><strong>Sungai Watch</strong><br>Organisation qui installe des barrières à déchets dans les rivières d’Indonésie. Trie et valorise les plastiques collectés.</div>`)[0];
+            popup_ba7e7491be3800e249eedb2990713e15.setContent(html_ece3d68c18e8f1419fc5d31ad1e7ec85);
+        
+
+        circle_marker_f3eb45d17a0648a6852bda96b8608975.bindPopup(popup_ba7e7491be3800e249eedb2990713e15)
+        ;
+
+        
+    
+    
+            circle_marker_f3eb45d17a0648a6852bda96b8608975.bindTooltip(
+                `<div>
+                     Sungai Watch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d7b89062a3d421238d1a1a8e2404d92 = L.circleMarker(
+                [21.0, 78.0],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_890bad3afa3dd324956278ec4b7e6c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e74b6c3e1bfd141caed9c14d9382dc2 = $(`<div id="html_6e74b6c3e1bfd141caed9c14d9382dc2" style="width: 100.0%; height: 100.0%;"><strong>Climate Partner (Inde)</strong><br>Projets climatiques et d’efficacité énergétique en Inde. Vise réduction d’émissions et co‑bénéfices sociaux.</div>`)[0];
+            popup_890bad3afa3dd324956278ec4b7e6c14.setContent(html_6e74b6c3e1bfd141caed9c14d9382dc2);
+        
+
+        circle_marker_3d7b89062a3d421238d1a1a8e2404d92.bindPopup(popup_890bad3afa3dd324956278ec4b7e6c14)
+        ;
+
+        
+    
+    
+            circle_marker_3d7b89062a3d421238d1a1a8e2404d92.bindTooltip(
+                `<div>
+                     Climate Partner (Inde)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb6da5ac632ebac39faaf79200cf7a52 = L.circleMarker(
+                [39.0, 35.0],
+                {"bubblingMouseEvents": true, "color": "#006400", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006400", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_850cdfe101a503eea19db2df63f3f1f1);
+        
+    
+        var popup_1f0796e7006b72313c753bdf203fd0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4668c1881133abc5f9d8104dc6fd81b4 = $(`<div id="html_4668c1881133abc5f9d8104dc6fd81b4" style="width: 100.0%; height: 100.0%;"><strong>Climate Partner (Turquie)</strong><br>Projets de réduction d’émissions et d’énergies propres en Turquie. Soutient l’économie locale et l’environnement.</div>`)[0];
+            popup_1f0796e7006b72313c753bdf203fd0b6.setContent(html_4668c1881133abc5f9d8104dc6fd81b4);
+        
+
+        circle_marker_cb6da5ac632ebac39faaf79200cf7a52.bindPopup(popup_1f0796e7006b72313c753bdf203fd0b6)
+        ;
+
+        
+    
+    
+            circle_marker_cb6da5ac632ebac39faaf79200cf7a52.bindTooltip(
+                `<div>
+                     Climate Partner (Turquie)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
